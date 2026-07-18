@@ -111,7 +111,7 @@ print(fruits)
 
 
 
-numbers = [10, 25, 40, 5, 20]
+numbers = [10, 25, 40, 5, 20] #stats calculator
 
 max_val = max(numbers)
 min_val = min(numbers)
