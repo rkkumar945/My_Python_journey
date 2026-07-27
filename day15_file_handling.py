@@ -25,7 +25,7 @@ file.close()
 
 #Read lines
 file = open("notes.txt","r")
-for line in file:
+for line in file:     #file ko line by line padhne ke liye loop chalaya, or line naam ke variable me store kiya.
     print(line)
 file.close()
 
