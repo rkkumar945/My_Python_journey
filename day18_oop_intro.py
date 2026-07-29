@@ -99,7 +99,6 @@ class Employee:
         print("company",self.company)
 
 emp = Employee()
-
 emp.RK()
 
 
@@ -125,6 +124,7 @@ class Student:
 
 student1 = Student()
 student1.show_details()
+
 
 
 
