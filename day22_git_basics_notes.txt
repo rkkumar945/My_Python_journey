@@ -1,0 +1,55 @@
+1.what is git?
+Git ek version control system(VCS) hai. yeh aapke code ke sabhi changes ko  track karta hai.
+Ex : aaj aapne project banaya, kal aapne usme changes kiye. agar koi galti ho gyi to Git purane version par wapas jane deta hai.
+
+2.Version control?
+code mu hue changes ka record rakhna.
+
+3.Repository?
+Repository(Repo) project ka storage area hota hai.
+ex. Student Analytics Project
+    │
+    ├── main.py
+    ├── README.md
+    ├── data.txt
+    └── requirements.txt
+
+4.Git installation check?
+vs code me terminal kholo or ye typt karo-  git --version
+version dekhne ke liye hota hai.
+
+5.Git Configuration?
+pehli baar git use karte time ye type kare:
+git config --global user.name "Rajat Kumar"
+fir iske baad ye type kare:
+git config --global user.email
+"rkkumar8476@gmail.com"
+
+*Configuration check karne ke liye:
+git config --list
+
+
+6.First repository setup.
+maan lo folder hai:
+Python_Practice
+is folder me terminal open karo:
+git init 
+
+output: Initilized empty Git repository 
+
+
+
+*Repostiory Status Check?
+git status 
+
+output: Untracked files:
+         day22_git_basics.py 
+
+jab ye output aaiga to iska matlab git ne file dekh li per track nahi kar pa raha hai. 
+
+
+
+*File add karna?
+git add .
+ya
+git add day22_git_basics.py
