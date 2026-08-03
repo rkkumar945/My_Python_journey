@@ -1,4 +1,4 @@
-1.what is git?
+1what is git?
 Git ek version control system(VCS) hai. yeh aapke code ke sabhi changes ko  track karta hai.
 Ex : aaj aapne project banaya, kal aapne usme changes kiye. agar koi galti ho gyi to Git purane version par wapas jane deta hai.
 
@@ -53,3 +53,24 @@ jab ye output aaiga to iska matlab git ne file dekh li per track nahi kar pa rah
 git add .
 ya
 git add day22_git_basics.py
+
+*First commit?
+git commit -m "completed day22 - git basics" 
+commit = Project ka snapshot
+
+*Commit history dekhna?
+git log
+yeh aapke sabhi commits dikha dega 
+
+
+Mini task - Git version check?
+git --version
+
+Mini task -Git configuration?
+git config --global user.name "Rajat Kumar"
+git config --global user.email "rkkumar8476@gmail.com"
+
+Mini task - Create First Repository?
+mkdir Git_Practice
+cd Git_Practice
+git init
