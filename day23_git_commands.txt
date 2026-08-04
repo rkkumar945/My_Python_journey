@@ -1,0 +1,55 @@
+Git commands & professional commit workflow.
+1:git status
+yeh command batati hai ki repository ki present situation kya hai 
+ex oputput:
+    On branch main
+    Changes not staged for commit: 
+      modified: day22_git_basics.py
+iska matlab hai ki file me changes hue hai lekin abhi commit nahi kiye gye      
+
+2:git add 
+ yeh command files ko staging area me send karti hai 
+ ex: agar ek file add karni hai to
+    git add day23_git_commands.py
+    agar sari files add akrni hai to
+    git add .
+
+
+
+3: git commit
+   commit appke project ka snapshot hota hai
+   ex: 
+      git commit -m "completed day 23 -Git Commands"
+      hamesha meaningful commit message likho
+
+
+4: git log
+  yeh sabhi commits ki history dikhata hai
+  ex:
+     commit 5a7b3f...
+     Author: Rajat Kumar
+     Completed Day 23 -Git Commands
+
+short version of this command
+git log --oneline
+
+
+5: git diff
+yeh batata hai ki aapne file me kya changes kiye hai
+
+
+
+
+*PROFESSIONAL GIT WORKFLOW
+ har project me ye seqence follow karo
+       1. Code 
+       ↓
+       2. git status
+       ↓
+       3. git add .
+       ↓
+       4. git commit -m "Meaningful Message"
+       ↓
+       5. git push
+
+       

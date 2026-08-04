@@ -1,0 +1,97 @@
+1:markdown revision: Markdown ek simple formatting language hai jiska use GitHub, Documentation or Blogs me hota hai.
+
+2Headings: 
+          # Heading 1
+          ## Heading 2
+          ### Heading 3
+
+
+3.bold ,italic & strikethrough:
+**Bold Text**
+*Italic Text*
+~~Deleted Text~~
+
+4.Code blocks:
+'print("hello")'
+
+MULTI LINE CODE:
+'''Python
+name = input("enter name")
+print(name)
+'''
+output:
+       name = input("enter name:")
+       print(name)
+
+
+5.Tables:
+        | Skill | Level |
+        |--------|--------|
+        | Python | Beginner |
+        | Git | Beginner |
+        | SQL | Learning |
+
+
+6.Blockquotes:
+>Practice makes perfect.
+
+7.Task Lists:
+- [x] Python Basics
+- [x] Functions
+- [ ] NumPy
+- [ ] Pandas
+
+
+8.Horizontal line:
+---
+
+
+
+FINAL PROJECT - PROJECT Documentation
+# Student Analytics Management System
+
+## Description
+
+A Python-based Student Management Project.
+
+---
+
+## Features
+
+- Add Student
+- Delete Student
+- Search Student
+- Update Student
+
+---
+
+## Technologies
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming |
+| Git | Version Control |
+| GitHub | Project Hosting |
+
+---
+
+## Installation
+
+1. Clone Repository
+2. Open VS Code
+3. Run Python File
+
+---
+
+## Progress
+
+- [x] Python Completed
+- [x] OOP Completed
+- [ ] NumPy
+- [ ] Pandas
+
+---
+
+## Author
+
+Rajat Kumar

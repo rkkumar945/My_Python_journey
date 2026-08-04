@@ -1,0 +1,43 @@
+1:Source code(src)= sara python code src folder me rakhna ek best prctice hai.
+2:Data folder= agar project me CSV,Excel,JSON ya Dtatbase files hai, to unhe data folder me rakhe.
+3:Documentation folder = project se related notes ya Documentation docs Folder me rakhe.
+Tests Folder = Project Code ko tests folde me rakhe 
+
+
+
+FINAL PROFESSIONAL STUDENT ANALYTICS STRUCTURE;
+
+Student_Analytics/
+│── src/
+
+│   ├── main.py
+
+│   ├── student.py
+
+│   ├── database.py
+
+│
+
+│── data/
+
+│   ├── students.csv
+
+│
+
+│── docs/
+
+│   ├── report.md
+
+│
+
+│── tests/
+
+│   ├── test_student.py
+
+│
+
+│── README.md
+
+│── requirements.txt
+
+│── .gitignore

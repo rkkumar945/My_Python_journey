@@ -1,0 +1,89 @@
+1:Requirements.txt = ye ek textx file hoti hai jisme project me use kiye gye sabhi sabhi python packages or versions likhe hote hai.
+koi dusra devloper aapka project download karta hai to use alag alag packages install karne nahi padhte, bas ek command chalani padti hai.
+
+2:Dpendency: iska matlab ki hamara project kisi dusre package per dependent nahi rehta hai.
+
+3:Installed packages dekhna: pip list
+
+4:requirements.txt : pip > requirements.txt 
+5:agar hume kisi dusre laptop per project chalana hai, to ye command chalao= pip install -r requirements.txt , ye automatically sabhi packages install kar dega.
+
+6;new package update add karna= agar humne pandas install kiya, to ab requirements.txt update karo= pip freeze > requirements.txt  ab file me pandas  bhi add ho jaiga.
+
+7:gitgignore kyu compulsory hai.
+Github per requirements.txt push karna chaiye lekin venv folder push nahi karna chaiye.
+
+8:Professional workflow
+Create Project
+
+↓
+
+Create Virtual Environment
+
+↓
+
+Activate Environment
+
+↓
+
+Install Packages
+
+↓
+
+Develop Project
+
+↓
+
+pip freeze > requirements.txt
+
+↓
+
+Push Project to GitHub
+
+
+
+
+
+
+Mini Project 1  Generate requirements.txt
+Step 1
+Install Package:
+pip install numpy
+Step 2
+Generate File:
+pip freeze > requirements.txt
+Step 3
+Open requirements.txt
+Output:
+numpy==2.5.1
+
+Mini Project 2 Install from requirements.txt
+Create:
+requirements.txt
+Example:
+numpy==2.5.1
+pandas==2.3.1
+Install:
+pip install -r requirements.txt
+
+
+ Mini Project 3  Verify Installation
+Command:
+pip list
+
+
+
+FINAL PROJECT - PROFESSIONAL DEPENDENCY MANAGEMENT
+Python_Project_Practice/
+│── venv/
+
+│── main.py
+
+│── requirements.txt
+
+│── .gitignore
+
+│── README.md
+
+
+

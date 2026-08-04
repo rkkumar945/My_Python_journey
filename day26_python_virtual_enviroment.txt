@@ -1,0 +1,150 @@
+1: Virtual environment
+virtual environment(venv) ek alag isolated(pyhthon) environment hota hai. isme har project apne packges alag rakhta hai. jaise project A packeges alag, project B ka packages alag.
+ex: maan lo Project A = Numpy 1.26 , Project B = Numpy 2.0 , agar virtual environment alag nahi hoga to dono projects me conflict ho sakta hai.
+
+Benefits: package coflicts nahi hote , har project independent hota hai, professional development hoti hai, team collaboration easy hoti hai.
+
+
+ Virtual Environment Create karna
+
+Project Folder में Terminal open karo:
+
+python -m venv venv
+
+ ya kuch Systems per:
+
+python3 -m venv venv
+
+isme ek new Folder banega:
+
+My_Project/
+│
+├── venv/
+├── main.py
+└── README.md
+
+
+---
+
+Virtual Environment Activate karna
+
+Windows
+
+venv\Scripts\activate
+
+macOS / Linux
+
+source venv/bin/activate
+
+Activate hone per Terminal me aisa dikh sakta hai:
+
+(venv) C:\Users\Rajat\My_Project>
+
+
+---
+
+Virtual Environment Deactivate karna
+
+kaam pura hone per:
+
+deactivate
+
+Terminal normal ho jayege
+
+
+---
+
+Package Install karna
+
+Virtual Environment Activate hone ke baad:
+
+pip install numpy
+
+ya
+
+pip install pandas
+
+Package keval isi Project ke Virtual Environment me Install hoga
+
+
+---
+
+Installed Packages dekna
+
+pip list
+
+Output Example:
+
+numpy
+pandas
+pip
+setuptools
+
+
+---
+
+
+Mini Task 1 – Virtual Environment banao:
+
+mkdir My_First_Project
+cd My_First_Project
+
+python -m venv venv
+
+
+---
+
+Mini Task 2 – Activate karo:
+
+Windows:
+
+venv\Scripts\activate
+
+
+---
+
+ Mini Task 3 – NumPy Install karo.
+
+pip install numpy
+
+fir Check karo:
+
+pip list
+
+
+---
+
+Mini Task 4 – Simple Program
+
+main.py
+
+print("Virtual Environment is Ready!")
+
+Run karo:
+
+python main.py
+
+Output:
+
+Virtual Environment is Ready!
+
+
+---
+
+Final Project – Professional Project Setup
+
+Project Structure:
+
+Student_Analytics/
+│
+├── venv/
+├── main.py
+├── README.md
+├── requirements.txt
+├── data/
+├── output/
+└── .gitignore
+
+ye wahi Structure hai jise hum aage Dublin Smart Transit Project me bhi Follow karenge.
+
+
